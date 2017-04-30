@@ -1,0 +1,260 @@
+/*big tablet to 1200px(widths smaller that the 1140px row)*/
+@media only screen and (max-width: 1200px)
+{
+footer
+	{
+		
+		width: 100%;
+		margin-top: 0.8%;
+		
+		
+	}
+	footer p
+	{
+		
+		width: 3000px;
+		padding-left: 40%;
+		padding-top: 2.2%;
+	
+	}
+	
+}
+
+
+/*small phones:from 768px to 1023px*/
+@media only screen and (max-width: 1136px)
+{
+	aside{width: 20%;height:100%;}
+	section article{height:100%;width: 74%; float: left;margin-left:3%;}
+	article #home,
+	article #register,
+	article #game,
+	article #logs
+	{ padding: 10%; padding-top: 20%;}
+	
+	 h3
+	{
+		
+		margin-bottom: 5px;
+		margin-left: 120px;
+	}
+
+	article #home p,
+	article #register p,
+	article #game p,
+	article #logs p
+	{display:block; width: 100%;height: 100%;
+		 font-size: 90%; }
+
+	 #form span.gendertext
+	{
+		width: 100px;
+	}
+
+
+	footer
+	{
+		display: inline-block;
+		width: 97.6%;
+		
+		
+	}
+	footer p
+	{
+		
+		
+		width: 120%;
+		padding-left: 40%;
+		padding-top: 2.2%;
+
+	
+	}
+	section.row
+	{
+		height: 680px;
+	}
+.btn
+	{
+
+		display: inline-block;
+		padding: 10px 20px;
+		
+		
+	
+		margin-right: 2px;
+	
+
+		font-size: 12px;
+		margin-top: 2px;
+	}
+
+
+	#clock
+	{
+		display: block;
+		width:50%;	
+		margin-left: 0;
+		padding-left: 0;
+		margin: 0 auto;
+		padding-left: 70px;
+		margin-top: 20px;
+		
+	}
+	
+}
+
+/*small phones to small tablets:from 481px to 767px*/
+@media only screen and (max-width: 767px)
+{
+	footer p
+	{
+		width:150%;
+		padding-left: 30%;
+		padding-top: 2.2%;
+	}
+
+
+	header
+	{
+		display: none;
+		
+	}
+
+	
+
+
+	.main-nav
+	{
+		
+		width: 100%;
+		height: 100%;
+	}
+	.main-nav li
+	{
+		display: block;
+		width: 100%;
+		height: auto;
+		transition: background-color 0.4s;
+		
+	}
+	nav .row
+	{
+		width: 100%;
+		height: 100%;
+	}
+
+	.main-section
+	{
+		position: absolute;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+
+	}
+	.main-section article
+	{
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: 90%;
+		margin: 0 auto;
+
+		
+		
+	}
+
+	.main-section aside
+	{
+		
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: 40%;
+		margin: 0 auto;
+		top: 620px;
+		
+		
+	
+	}
+	footer
+	{
+		position: absolute;
+		width: 100%;
+		top: 1200px;
+	}
+	.btn
+	{
+
+		display: inline-block;
+		padding: 10px 20px;
+		
+		
+	
+		margin-right: 2px;
+	
+
+		font-size: 12px;
+		margin-top: 2px;
+	}
+
+
+	#clock
+	{
+		display: block;
+		width:50%;	
+		margin-left: 0;
+		padding-left: 0;
+		margin: 0 auto;
+		padding-left: 70px;
+		margin-top: 20px;
+		
+	}
+
+
+		
+}
+
+
+/*small phones:from 0 to 480px*/
+@media only screen and (max-width: 480px)
+{
+	.btn
+	{
+
+		display: inline-block;
+		padding: 5px 5px;
+		margin-right: 10px;
+		font-size: 15px;
+	
+	}
+
+
+	#clock
+	{
+		display: block;
+		width:50%;	
+		margin-left: 0;
+		padding-left: 0;
+		margin: 0 auto;
+		padding-left: 70px;
+		margin-top: 20px;
+		
+	}
+
+h4 #playerName
+{
+	margin-right: 0;
+}
+	p #playerstatus
+	{
+		
+		margin-top: -42px;
+		margin-left: 10px;
+		color: #ecf0f1;
+		font-weight: 400;
+		font-size: 10px;
+		width:50px;
+	}
+}
